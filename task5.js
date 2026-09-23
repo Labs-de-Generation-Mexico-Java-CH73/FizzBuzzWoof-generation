@@ -8,4 +8,7 @@ for (let i = 1; i <= limit; i++) {
   if (i % 3 === 0) output += "Fizz";
   if (i % 5 === 0) output += "Buzz";
   if (i % 7 === 0) output += "Woof";
+
+  // Imprime la palabra (Fizz/Buzz/Woof) o el número 'i' si output está vacío
+  console.log(output || i);
 }
