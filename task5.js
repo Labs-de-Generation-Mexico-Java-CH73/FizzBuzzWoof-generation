@@ -1,6 +1,5 @@
 // Refer to Task 5 in your Instructions to complete this task
 
-const prompt = require("prompt-sync")();
 const limit = parseInt(prompt("¿Cuántas líneas deseas generar? "));
 
 for (let i = 1; i <= limit; i++) {
